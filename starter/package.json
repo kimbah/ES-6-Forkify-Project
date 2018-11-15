@@ -1,0 +1,23 @@
+{
+    "name": "starter",
+    "version": "1.0.0",
+    "description": "\"forkify starter project\"",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production"
+    },
+    "author": "Kim Hughes",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^5.9.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-node": "^8.0.0",
+        "eslint-plugin-promise": "^4.0.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "webpack": "^4.25.1",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {}
+}

@@ -1,12 +1,12 @@
 {
     "name": "starter",
     "version": "1.0.0",
-    "description": "\"forkify starter project\"",
+    "description": "forkify starter project",
     "main": "index.js",
     "scripts": {
         "dev": "webpack --mode development",
         "build": "webpack --mode production",
-        "start": "webpack-dev-server --development --open"
+        "start": "webpack-dev-server --mode development --open"
     },
     "author": "Kim Hughes",
     "license": "ISC",
